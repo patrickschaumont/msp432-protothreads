@@ -9,7 +9,7 @@ void after(tSWTimer *T, unsigned d) {
     StartSWTimer(T);
 }
 
-int expired(tSWTimer *t) {
+int expired(tSWTimer *T) {
     return SWTimerOneShotExpired(T);
 }
 
